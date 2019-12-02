@@ -27,6 +27,7 @@ class GiftedTestimonialShortCode {
 			'post_type'     => 'gifted_testimonials',
 			'post_status'   => 'published',
 			'post_per_page' => - 1,
+			'order'         => 'asc'
 		];
 		$query = new \WP_Query( $args );
 		if ( $query->have_posts() ) :
@@ -47,7 +48,7 @@ class GiftedTestimonialShortCode {
 							?>
                             <div class="owl-item">
                                 <div class="km-gifted-testimonial">
-                                    <i class="fa fa-quote-left fa-4x" style="color:dodgerblue"></i>
+                                    <i class="fa fa-quote-left fa-4x" style="color:#019dd8"></i>
                                     <div class="km-gifted-testimonial-content">
 										<?php the_content(); ?>
                                     </div>
@@ -56,9 +57,8 @@ class GiftedTestimonialShortCode {
                                             <img src="<?php echo get_the_post_thumbnail_url( $id ) ?>" alt="">
                                         </div>
                                         <div class="km-gifted-testimonial-location">
-                                            <h4><?php echo get_the_title() ?></h4>
-                                            <br>
-											<?php echo $taxonomy[0] ?>
+                                            <h6><b><?php echo get_the_title() ?></b></h6>
+											<span id="km-location"><?php echo $taxonomy[0] ?></span>
                                         </div>
                                     </div>
 
