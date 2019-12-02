@@ -1,0 +1,9 @@
+.km-gifted-testimonials {
+  display: flex !important; }
+  .km-gifted-testimonials .owl-nav {
+    flex: 1; }
+  .km-gifted-testimonials .km-gifted-testimonial {
+    border: solid red 1px;
+    margin-right: 20px; }
+
+/*# sourceMappingURL=main.css.map */
