@@ -4,7 +4,19 @@ jQuery(function ($) {
         owl.owlCarousel({
             items: 3,
             dots: false,
-            loop: true
+            loop: true,
+            responsiveClass:true,
+            responsive: {
+                0:{
+                    items: 1
+                },
+                640:{
+                    items: 2
+                },
+                940:{
+                    items: 3
+                }
+            }
         });
 
         $('.km-gifted-control-next').click(function () {
