@@ -23,6 +23,7 @@ class GiftedTestimonialShortCode {
 	}
 
 	public function gifted_testimonial_shorcode_callback( $atts ) {
+		ob_start();
 		$args  = [
 			'post_type'     => 'gifted_testimonials',
 			'post_status'   => 'published',
@@ -30,6 +31,7 @@ class GiftedTestimonialShortCode {
 			'order'         => 'asc'
 		];
 		$query = new \WP_Query( $args );
+
 		if ( $query->have_posts() ) :
 			?>
             <div class="owl-carousel owl-theme owl-loaded km-gifted-testimonials">
@@ -58,7 +60,7 @@ class GiftedTestimonialShortCode {
                                         </div>
                                         <div class="km-gifted-testimonial-location">
                                             <h6><b><?php echo get_the_title() ?></b></h6>
-											<span id="km-location"><?php echo $taxonomy[0] ?></span>
+                                            <span id="km-location"><?php echo $taxonomy[0] ?></span>
                                         </div>
                                     </div>
 
@@ -82,5 +84,12 @@ class GiftedTestimonialShortCode {
             </div>
 		<?php
 		endif;
+		//
+		wp_reset_postdata();
+		$output_string = ob_get_contents();
+		ob_end_clean();
+
+		return $output_string;
+
 	}
 }
