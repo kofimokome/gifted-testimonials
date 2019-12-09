@@ -23,6 +23,10 @@ Simple plugin to display a your testimonials in a carousel.
 4. Create your testimonials
 5. Enter the shortcode [gifted_testimonials] on your page
 
+### == Currently Used By ==
+
+* [Gifted Mom](https://giftedmom.co)
+
 ### == Changelog ==
 
 = 1.0.0 =
