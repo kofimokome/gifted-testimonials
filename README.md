@@ -1,13 +1,13 @@
 # Gifted Testimonials
-Contributors: kofimokome
-Donate link: www.kofimokome.space
-Tags: carousel, testimonial, testimonials
-Requires at least: 4.0.1
-Tested up to: 5.3
-Stable tag: 1.0
-Requires PHP: 7.0.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Contributors: kofimokome <br/>
+Donate link: www.kofimokome.space <br />
+Tags: carousel, testimonial, testimonials <br />
+Requires at least: 4.0.1 <br />
+Tested up to: 5.3 <br />
+Stable tag: 1.0 <br />
+Requires PHP: 7.0.0 <br />
+License: GPLv2 or later <br />
+License URI: http://www.gnu.org/licenses/gpl-2.0.html <br />
 
 Displays a nice testimonial carousel
 
