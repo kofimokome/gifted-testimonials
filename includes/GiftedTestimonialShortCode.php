@@ -10,7 +10,7 @@ namespace gifted_testimonial;
 
 class GiftedTestimonialShortCode {
 	public function __construct() {
-		// silence is goldern
+		// silence is golden
 		$this->run();
 	}
 

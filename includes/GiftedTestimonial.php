@@ -45,7 +45,6 @@ class GiftedTestimonial {
 		wp_enqueue_style( 'gifted-testimonial', plugins_url( '/css/main.css', dirname( __FILE__ ) ), '', '1.0.0', '' );
 		wp_enqueue_script( 'gifted-testimonial', plugins_url( '/js/main.js', dirname( __FILE__ ) ), array( 'jquery' ), '1.0.0', true );
 
-		//wp_enqueue_script('giftedmomcomment_chron', plugins_url('/js/chron_js.js', dirname(__FILE__)), array('jquery'), '1.0.0', true);
 	}
 
 	private function add_functionality() {
