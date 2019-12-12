@@ -37,13 +37,13 @@ class GiftedTestimonial {
 
 	public function add_scripts() {
 		//wp_enqueue_style( 'style-name', get_stylesheet_uri() );
-		wp_enqueue_style( 'font-awesome', plugins_url( '/css/all.min.css', dirname( __FILE__ ) ), '', '5.11.2', '' );
-		wp_enqueue_style( 'owl-carousel', plugins_url( '/css/owl.carousel.min.css', dirname( __FILE__ ) ), '', '2.3.4', '' );
-		wp_enqueue_style( 'owl-carousel-default', plugins_url( '/css/owl.theme.default.min.css', dirname( __FILE__ ) ), '', '2.3.4', '' );
-		wp_enqueue_style( 'gifted-testimonial', plugins_url( '/css/main.css', dirname( __FILE__ ) ), '', '1.0.0', '' );
+		wp_enqueue_style( 'font-awesome', plugins_url( '/assets/css/all.min.css', dirname( __FILE__ ) ), '', '5.11.2', '' );
+		wp_enqueue_style( 'owl-carousel', plugins_url( '/assets/css/owl.carousel.min.css', dirname( __FILE__ ) ), '', '2.3.4', '' );
+		wp_enqueue_style( 'owl-carousel-default', plugins_url( '/assets/css/owl.theme.default.min.css', dirname( __FILE__ ) ), '', '2.3.4', '' );
+		wp_enqueue_style( 'gifted-testimonial', plugins_url( '/assets/css/main.css', dirname( __FILE__ ) ), '', '1.0.0', '' );
 
-		wp_enqueue_script( 'owl-carousel', plugins_url( '/js/owl.carousel.min.js', dirname( __FILE__ ) ), [ 'jquery' ], '2.3.4', true );
-		wp_enqueue_script( 'gifted-testimonial', plugins_url( '/js/main.js', dirname( __FILE__ ) ), array( 'jquery' ), '1.0.0', true );
+		wp_enqueue_script( 'owl-carousel', plugins_url( '/assets/js/owl.carousel.min.js', dirname( __FILE__ ) ), [ 'jquery' ], '2.3.4', true );
+		wp_enqueue_script( 'gifted-testimonial', plugins_url( '/assets/js/main.js', dirname( __FILE__ ) ), array( 'jquery' ), '1.0.0', true );
 
 	}
 

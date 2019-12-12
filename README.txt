@@ -27,6 +27,11 @@ Simple plugin to display a your testimonials in a carousel.
 
 * [Gifted Mom](https://giftedmom.co)
 
+== Screenshots ==
+
+1. Carousel in action
+2. Dashboard
+
 == Changelog ==
 
 = 1.0.0 =
