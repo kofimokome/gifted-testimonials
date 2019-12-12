@@ -6,7 +6,7 @@
  * Version: 1.0
  * Author: Kofi Mokome
  * Author URI: https://kofimokome.stream
- * Text Domain: gifted-testimonial
+ * Text Domain: gifted-testimonials
  * Domain Path: /languages
  */
 
@@ -68,4 +68,4 @@ function kmgt_deactivation() {
 }
 
 // todo: for future use
-load_plugin_textdomain( 'gifted-testimonial', false, basename( dirname( __FILE__ ) ) . '/languages' );
+load_plugin_textdomain( 'gifted-testimonials', false, basename( dirname( __FILE__ ) ) . '/languages' );
