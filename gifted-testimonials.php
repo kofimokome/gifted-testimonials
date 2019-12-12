@@ -3,7 +3,7 @@
  * Plugin Name: Gifted Testimonials
  * Plugin URI: https://github.com/kofimokome/gifted-testimonials
  * Description: Displays a nice testimonial carousel
- * Version: 1.0
+ * Version: 1.0.1
  * Author: Kofi Mokome
  * Author URI: https://kofimokome.stream
  * Text Domain: gifted-testimonials

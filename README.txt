@@ -4,7 +4,7 @@ Donate link: www.kofimokome.space
 Tags: carousel, testimonial, testimonials
 Requires at least: 4.0.1
 Tested up to: 5.3
-Stable tag: 1.0
+Stable tag: 1.0.1
 Requires PHP: 7.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -36,6 +36,9 @@ Simple plugin to display a your testimonials in a carousel.
 
 = 1.0.0 =
 * Initial Release
+
+= 1.0.1 =
+* Bug Fixes
 
 == How to Contribute ==
 The source codes can be downloaded here [GitHub](https://github.com/kofimokome/gifted-testimonials.git)
